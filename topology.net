@@ -1,0 +1,4 @@
+autostart = False
+version = 0.8.3.1
+[GNS3-DATA]
+    configs = configs
