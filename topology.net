@@ -224,254 +224,258 @@ version = 0.8.3.1
     m11 = 1.0
     m22 = 1.0
     [[NOTE 1]]
+        text = "NSSA"
+        x = 90.0
+        y = 219.0
+    [[NOTE 2]]
         text = "162.1.1.0 /24"
         x = -240.0
         y = -215.0
-    [[NOTE 2]]
+    [[NOTE 3]]
         text = "65.1.1.0 /24"
         x = -320.0
         y = -415.0
-    [[NOTE 3]]
+    [[NOTE 4]]
         text = "65.2.1.0 /24"
         x = -142.0
         y = -408.0
-    [[NOTE 4]]
+    [[NOTE 5]]
         text = "88.87.1.0 /24"
         x = 311.0
         y = 181.0
-    [[NOTE 5]]
+    [[NOTE 6]]
         text = "30.30.30.0 /30"
         x = 77.0
         y = 321.0
-    [[NOTE 6]]
+    [[NOTE 7]]
         text = ".4"
         x = -18.0
         y = 80.0
-    [[NOTE 7]]
+    [[NOTE 8]]
         text = ".4"
         x = -126.0
         y = 73.0
-    [[NOTE 8]]
+    [[NOTE 9]]
         text = ".3"
         x = -337.0
         y = 68.0
-    [[NOTE 9]]
+    [[NOTE 10]]
         text = ".3"
         x = -435.0
         y = 59.0
-    [[NOTE 10]]
+    [[NOTE 11]]
         text = ".5"
         x = -23.0
         y = 216.0
-    [[NOTE 11]]
+    [[NOTE 12]]
         text = ".5"
         x = -501.0
         y = 251.0
-    [[NOTE 12]]
+    [[NOTE 13]]
         text = "20.20.20.0 /24"
         x = -158.0
         y = 152.0
-    [[NOTE 13]]
+    [[NOTE 14]]
         text = "10.10.10.0 /24"
         x = -451.0
         y = 116.0
-    [[NOTE 14]]
+    [[NOTE 15]]
         text = "24.24.24.0 /30"
         x = -30.0
         y = -67.0
-    [[NOTE 15]]
+    [[NOTE 16]]
         text = "23.23.23.0 /32"
         x = -207.0
         y = -128.0
-    [[NOTE 16]]
+    [[NOTE 17]]
         text = "14.14.14.0 /30"
         x = -340.0
         y = -86.0
-    [[NOTE 17]]
+    [[NOTE 18]]
         text = "13.13.13.0 /30"
         x = -506.0
         y = -83.0
-    [[NOTE 18]]
+    [[NOTE 19]]
         text = "RIP"
         x = 406.0
         y = 166.0
-    [[NOTE 19]]
+    [[NOTE 20]]
         text = "Area 20"
         x = -157.0
         y = 133.0
-    [[NOTE 20]]
+    [[NOTE 21]]
         text = "Area 10"
         x = -418.0
         y = 98.0
-    [[NOTE 21]]
+    [[NOTE 22]]
         text = "AS 65001"
         x = -233.0
         y = -177.0
-    [[NOTE 22]]
+    [[NOTE 23]]
         text = "BGP AS 65001"
         x = -33.0
         y = -330.0
-    [[NOTE 23]]
+    [[NOTE 24]]
         text = "1"
         x = -4.1306638211
         y = 10.5768565297
         interface = SW8 1
-    [[NOTE 24]]
+    [[NOTE 25]]
         text = "1"
         x = 0.36444927505
         y = 35.1178731886
         interface = SW7 1
-    [[NOTE 25]]
+    [[NOTE 26]]
         text = "Area 30"
         x = 86.0
         y = 198.0
         z = 1.0
-    [[NOTE 26]]
+    [[NOTE 27]]
         text = "1"
         x = -3.59378426583
         y = 7.53383015899
         interface = SW5 1
-    [[NOTE 27]]
+    [[NOTE 28]]
         text = "1"
         x = 74.9184046298
         y = 9.20372333969
         interface = SW4 1
-    [[NOTE 28]]
+    [[NOTE 29]]
         text = "1"
         x = 31.9654928872
         y = -23.8435347261
         interface = SW3 1
-    [[NOTE 29]]
+    [[NOTE 30]]
         text = "2"
         x = 75.4861567741
         y = 14.9477327165
         interface = SW1 2
-    [[NOTE 30]]
+    [[NOTE 31]]
         text = "1"
         x = 29.6186771125
         y = 55.5652630611
         interface = SW1 1
-    [[NOTE 31]]
+    [[NOTE 32]]
         text = "f2/0"
         x = 68.6306638211
         y = 35.4231434703
         interface = R40 f2/0
-    [[NOTE 32]]
+    [[NOTE 33]]
         text = "f1/0"
         x = 51.135550725
         y = -33.1178731886
         interface = R40 f1/0
-    [[NOTE 33]]
+    [[NOTE 34]]
         text = "f0/0"
         x = -32.9861567741
         y = 25.0522672835
         interface = R40 f0/0
-    [[NOTE 34]]
+    [[NOTE 35]]
         text = "f1/0"
         x = 38.8813228875
         y = -17.5652630611
         interface = R31 f1/0
-    [[NOTE 35]]
+    [[NOTE 36]]
         text = "s0/0"
         x = -26.3112701929
         y = 32.3908075217
         interface = R31 s0/0
-    [[NOTE 36]]
+    [[NOTE 37]]
         text = "f0/0"
         x = -2.47113888809
         y = -28.8484337639
         interface = R30 f0/0
-    [[NOTE 37]]
+    [[NOTE 38]]
         text = "s1/0"
         x = 72.3112701929
         y = 14.6091924783
         interface = R30 s1/0
-    [[NOTE 38]]
+    [[NOTE 39]]
         text = "f0/0"
         x = 37.9937358221
         y = -17.687058376
         interface = R10 f0/0
-    [[NOTE 39]]
+    [[NOTE 40]]
         text = "f2/0"
         x = 36.5345071128
         y = 61.8435347261
         interface = R6 f2/0
-    [[NOTE 40]]
+    [[NOTE 41]]
         text = "f1/0"
         x = 67.0937842658
         y = 31.466169841
         interface = R6 f1/0
-    [[NOTE 41]]
+    [[NOTE 42]]
         text = "f0/0"
         x = -28.4184046298
         y = 31.7962766603
         interface = R6 f0/0
-    [[NOTE 42]]
+    [[NOTE 43]]
         text = "s3/0"
         x = 36.9630231509
         y = -29.9999829089
         interface = R4 s3/0
-    [[NOTE 43]]
+    [[NOTE 44]]
         text = "f2/0"
         x = 53.8091153464
         y = 34.5315148451
         interface = R4 f2/0
-    [[NOTE 44]]
+    [[NOTE 45]]
         text = "f1/0"
         x = -20.0979029701
         y = 35.1881003146
         interface = R4 f1/0
-    [[NOTE 45]]
+    [[NOTE 46]]
         text = "f0/0"
         x = -41.5926043675
         y = -14.18883655
         interface = R4 f0/0
-    [[NOTE 46]]
+    [[NOTE 47]]
         text = "s3/0"
         x = 70.3383654675
         y = -9.10324383333
         interface = R3 s3/0
-    [[NOTE 47]]
+    [[NOTE 48]]
         text = "f2/0"
         x = 49.8604075271
         y = 36.9069571115
         interface = R3 f2/0
-    [[NOTE 48]]
+    [[NOTE 49]]
         text = "f1/0"
         x = -35.6569553646
         y = 24.8979725925
         interface = R3 f1/0
-    [[NOTE 49]]
+    [[NOTE 50]]
         text = "f0/0"
         x = -17.8567417946
         y = -18.9425392816
         interface = R3 f0/0
-    [[NOTE 50]]
+    [[NOTE 51]]
         text = "s1/1"
         x = 33.0369768491
         y = 55.9999829089
         interface = R2 s1/1
-    [[NOTE 51]]
+    [[NOTE 52]]
         text = "s1/0"
         x = -45.3383654675
         y = 32.1032438333
         interface = R2 s1/0
-    [[NOTE 52]]
+    [[NOTE 53]]
         text = "f0/0"
         x = -9.54262503239
         y = -26.7920239064
         interface = R2 f0/0
-    [[NOTE 53]]
+    [[NOTE 54]]
         text = "f2/0"
         x = -10.1432582054
         y = 44.9425392816
         interface = R1 f2/0
-    [[NOTE 54]]
+    [[NOTE 55]]
         text = "f1/0"
         x = 66.5926043675
         y = 24.18883655
         interface = R1 f1/0
-    [[NOTE 55]]
+    [[NOTE 56]]
         text = "f0/0"
         x = 36.7680960322
         y = -25.7782582219
