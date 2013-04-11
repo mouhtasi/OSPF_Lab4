@@ -1,3 +1,14 @@
 
 
-A: Dis/connect R6. We get T5 originated from R1 and R2. Not reoriginated. T4 from R3 & R4 for R1 & R2 to R30 advertising ASBR as link-state ID and itself as advertising router.
+A: Dis/connect R6. We get T5 originated from R1 and R2. Not reoriginated. T4 from R3 & R4 for 	R1 & R2 to R30 advertising ASBR as link-state ID and itself as advertising router.
+
+T4 is needed because Type 5 External LSAs are flooded to all areas and the detailed next-hop information may not be available in those other areas. This is solved by an Area Border Router flooding the information for the ASBR router where the type 5 originated. 
+
+T5s are forwarded all over the network, the whole AS SCOPE!
+
+
+
+B:
+   Both R1 and R2 are ASBRs and are advertising the same prefixs (65.1.1.0 & 65.2.1.0) 
+	R30 will receive T5s from R1 and R2. R30 decides which path to use based on the metrics. But as there's a virtual link between R30 and R4, the route chose nwill be through R4, as R30 is in area0, thus chosing an intra-area route. 
+	
